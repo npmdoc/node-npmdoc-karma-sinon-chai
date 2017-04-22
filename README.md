@@ -21,8 +21,32 @@
 ```json
 
 {
-    "name": "karma-sinon-chai",
+    "author": {
+        "name": "Kevin Mees"
+    },
+    "bugs": {
+        "url": "https://github.com/kmees/karma-sinon-chai/issues"
+    },
+    "contributors": [
+        {
+            "name": "Greg Thornton"
+        },
+        {
+            "name": "Tobias Kopelke"
+        }
+    ],
+    "dependencies": {
+        "lolex": "^1.6.0"
+    },
     "description": "Sinon and Chai for Karma",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "4633419494d9e2d848787dd76053031859f5b7f5",
+        "tarball": "https://registry.npmjs.org/karma-sinon-chai/-/karma-sinon-chai-1.3.1.tgz"
+    },
+    "gitHead": "efb2754c8bfa7545da488a69364860f59e275cf7",
+    "homepage": "https://github.com/kmees/karma-sinon-chai",
     "keywords": [
         "karma",
         "chai",
@@ -30,31 +54,27 @@
         "mocha",
         "should"
     ],
-    "version": "1.3.1",
-    "author": "Kevin Mees <kev.mees@gmail.com>",
-    "main": "./index.js",
     "license": "MIT",
-    "homepage": "https://github.com/kmees/karma-sinon-chai",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kmees/karma-sinon-chai.git"
-    },
-    "bugs": {
-        "url": "https://github.com/kmees/karma-sinon-chai/issues"
-    },
-    "contributors": [
-        "Greg Thornton <xdissent@me.com>",
-        "Tobias Kopelke <nox@raynode.de>"
+    "main": "./index.js",
+    "maintainers": [
+        {
+            "name": "kmees"
+        }
     ],
+    "name": "karma-sinon-chai",
+    "optionalDependencies": {},
     "peerDependencies": {
         "chai": "^3.5.0",
         "sinon": "^2.1.0",
         "sinon-chai": "^2.9.0"
     },
-    "dependencies": {
-        "lolex": "^1.6.0"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kmees/karma-sinon-chai.git"
     },
-    "devDependencies": {}
+    "scripts": {},
+    "version": "1.3.1",
+    "bin": {}
 }
 ```
 
